@@ -1,3 +1,9 @@
 1.0:
 created Navbar.jsx and Navbar.css
 added Navbar to home page
+
+1.1:
+fixed root and body positioning issues 
+fixed Navbar positioning issues 
+added heroDiv 
+set font family to inter 

@@ -1,9 +1,11 @@
 .navbar {
+    position: absolute;
+    top:0;
     display: flex;
     flex-direction: row;
     margin: 2em;  
     opacity: 0;
-    animation: revealFromTop 0.5s ease-out 0.5s forwards;
+    animation: revealFromTop 0.5s ease-out 1s forwards;
 }
 
 .navbar ul {
@@ -25,7 +27,7 @@
 
 @keyframes revealFromTop {
     0% {
-        transform: translateY(-200%);
+        transform: translateY(-100%);
         opacity: 0;
     }
     100% {
