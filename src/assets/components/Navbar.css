@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    margin: 2em;  
+    opacity: 0;
+    animation: revealFromTop 0.5s ease-out 0.5s forwards;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    padding: 2em;
+    margin: 0;
+    border-radius: 10em;
+
+}
+
+.navbar li {
+    list-style-type: none;
+    padding: 0 1em;
+    font-family: "Inter", sans-serif;
+    color: white;
+}
+
+@keyframes revealFromTop {
+    0% {
+        transform: translateY(-200%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
