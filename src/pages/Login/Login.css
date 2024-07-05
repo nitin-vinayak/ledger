@@ -1,0 +1,49 @@
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40%;
+  width: 20%;
+  opacity: 0;
+  animation: fadeIn 0.5s ease-out 0.5s forwards;
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 20em;
+}
+
+form h3 {
+  font-size: 2em;
+  margin: 0;
+  margin-bottom: 1em;
+  align-self: center;
+  font-family: "Inter", sans-serif;
+}
+
+form input {
+  margin-top: 2em;
+  padding: 1em;
+  font-family: "Inter", sans-serif;
+}
+
+form button {
+  margin-top: 4em;
+  padding: 1em;
+  font-family: "Inter", sans-serif;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer; 
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
