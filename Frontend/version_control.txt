@@ -22,3 +22,8 @@ will try to add functionality with express.js next update
 1.3.1:
 code structure changes, moved into frontend and backend since im ready-ing for db connections
 added a node js server and db connect files (database.js)   
+
+1.3.2: 
+finished a baseline login system that works but session and cookies are not yet configured 
+the login form posts to port 8081 where i have a api handling the post req under routes folder (login.js)
+need to add a registration form that inserts data into users table in 1.3.3

@@ -1,7 +1,14 @@
-const http =  require('http') 
+const express = require('express');
+const cors = require('cors');
+const db = require('./database'); 
+const routes = require('./Routes/login');
 
-const server = http.createServer((req, res) => {
-   console.log('Server is Listening');
-})
+const app = express();
 
-server.listen(8000)
+app.use(express.json());
+app.use(cors());
+app.use('/', routes);
+
+app.listen(8081, () => {
+   console.log('Listening on port 8081');
+});
