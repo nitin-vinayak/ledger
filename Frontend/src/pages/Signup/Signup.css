@@ -1,0 +1,58 @@
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    width: 20%;
+    opacity: 0;
+    animation: fadeIn 0.5s ease-out 0.5s forwards;
+  }
+  
+.signup-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 20em;
+  }
+  
+.signup-parent h3 {
+    font-size: 2em;
+    margin: 0;
+    margin-bottom: 1em;
+    align-self: center;
+    font-family: "Inter", sans-serif;
+  }
+  
+.signup-parent input {
+    margin-top: 2em;
+    padding: 1em;
+    font-family: "Inter", sans-serif;
+  }
+  
+.signup-parent button {
+    margin-top: 2em;
+    padding: 1em;
+    font-family: "Inter", sans-serif;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer; 
+  }
+  
+.signup-parentp {
+    font-family: "Inter", sans-serif;
+    font-size: 0.75em;
+    padding-top: 2em;
+    color: black;
+    text-decoration: none;
+  }
+  
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

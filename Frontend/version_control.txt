@@ -27,3 +27,9 @@ added a node js server and db connect files (database.js)
 finished a baseline login system that works but session and cookies are not yet configured 
 the login form posts to port 8081 where i have a api handling the post req under routes folder (login.js)
 need to add a registration form that inserts data into users table in 1.3.3
+
+
+1.3.3: 
+changed login.js and Login.jsx functionality to work on res.status codes instead of JSON message match 
+added signup.js and signup.jsx files and a fully functioning registration system 
+styling for sign up form was being performed from login.css before sure to global scope, changed scope to signup.css and login.css now 

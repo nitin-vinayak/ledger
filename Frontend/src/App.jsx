@@ -4,6 +4,7 @@ import './App.css'
  
 import HomePage from './pages/Home/HomePage'
 import LoginFunction from './pages/Login/Login'
+import SignupFunction from './pages/Signup/Signup'
 import RootLayout from './pages/Root'
 import About from './pages/About/About'
 import Dashboard from './pages/Dashboard/Dashboard'
@@ -15,6 +16,7 @@ const router = createBrowserRouter ([
     children: [
       {path: '/', element: <HomePage/>},
       {path: '/login', element: <LoginFunction/>},
+      {path: '/signup', element: <SignupFunction/>},
       {path: '/about', element: <About/>},
       {path: '/dashboard', element: <Dashboard/>},
     ]
